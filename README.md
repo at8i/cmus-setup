@@ -1,5 +1,5 @@
 # CMUS setup for your Ubuntu or Ubuntu based distro #
-A complete cmus setup with lyrics, cover arts and log edit setup. It also downloads the lyrics to
+A complete cmus setup with lyrics, cover arts and tag edit setup. It also downloads the lyrics to
 `/home/USERNAME/lyrics` in `{$ARTIS}_{$TITLE}_lyrics_1.txt` for future use. You can change them
 all to .lrc files if you want. And cover art for cmus which will be in track's folder.
 1. [Installation](#Installation)
