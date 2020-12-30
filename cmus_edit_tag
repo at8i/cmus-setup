@@ -1,0 +1,9 @@
+#!/bin/bash
+file="$(cmus-remote -C 'echo {}')"
+ 
+if [ -f "$file" ]
+then
+         terminator -x /usr/bin/mp3info -i -f "$file" &
+else
+         echo "Oops, couldn't find selected track" >&2
+fi
