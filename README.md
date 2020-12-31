@@ -7,6 +7,9 @@ in track's folder.
 I usually have this setup open in one of workspaces in one of my monitors. You can see
 a sample picture at the end.
 
+Except cmus-plugins.sh all other files can be found here and there in github.(I forgot where I got them,I would have linked them otherwise)
+I have modified them except cmus-feh.sh and cmus_edit_tag. cmus_edit_tag can be found in cmus's official github page.(Dig a bit deep)
+
 1. [Installation](#Installation)
 1. [Status Display Program](#Status-Display-Program)
 1. [Edit Tag](#Edit-Tag)
