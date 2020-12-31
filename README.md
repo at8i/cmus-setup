@@ -6,10 +6,11 @@ all to .lrc files if you want. And cover art for cmus which will be in track's f
 1. [Status Display Program](#Status-Display-Program)
 1. [Edit Tag](#Edit-Tag)
 1. [What it will look like](#What-it-will-look-like)
+1. [Note](#Note)
 ## Installation
 Follow below steps:
 1. Install glyrc `sudo apt install glyrc` or compile from source [Glyr](https://github.com/sahib/glyr).
-2. Install cmus `sudo apt install cmus`(used to fetch lyrics).
+2. Install cmus `sudo apt install cmus`.
 3. Install wget `sudo apt install wget`(used to fetch lyrics).
 4. Install jq `sudo apt install jq`(used to fetch lyrics).
 5. Install awk `sudo apt install mawk`(used to fetch lyrics).
@@ -44,6 +45,12 @@ Follow steps below to be able to edit tag of the tracks you want:
 4. If you press your binding for edit tag command, a window will pop up and you can edit the
 fields and press enter at the end to save and quit or ctrl-C to cancel the changes and quit.
 
+## Note
+You may want to take these into consideration.
+1. If you are using Gnome desktop [cmus status extension](https://extensions.gnome.org/extension/1934/cmus-status/) is recommended.
+2. Coverart-get is slow , it will take 30 secdons to find and download the cover art.
+So wait 30 sec and then play the song once more and you should be able to see the art cover.
+Don't worry it is working, give it some time.
+
 ## What it will look like
-If you are using Gnome desktop [cmus status extension](https://extensions.gnome.org/extension/1934/cmus-status/) is recommended.
 ![CmusSample](./image/CmusSample.png "CmusSample")

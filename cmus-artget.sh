@@ -8,4 +8,4 @@ ALBUM=$( cmus-remote -Q | grep "tag album " | sed "s/tag album //" )
 FOLDER=$( cmus-remote -Q | grep "file" | sed "s/file //" | rev | \
 cut -d"/" -f2- | rev )
 
-glyrc cover -w "$FOLDER" -F "jpeg;png;jpg" --artist "$ARTIST" --album "$ALBUM"
+glyrc cover -w "$FOLDER" -F "jpeg;png;jpg" --artist "$ARTIST" --album "$ALBUM" >/dev/null 2>&1
