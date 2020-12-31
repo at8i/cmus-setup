@@ -3,14 +3,15 @@ A complete cmus setup with lyrics, cover arts and tag edit setup. It also downlo
 `/home/USERNAME/lyrics` in `{$ARTIS}_{$TITLE}_lyrics_1.txt` format for future use
 You can change them all to .lrc files if you want. And cover art for cmus which will be
 in track's folder.
+
 I usually have this setup open in one of workspaces in one of my monitors. You can see
 a sample picture at the end.
 
 1. [Installation](#Installation)
 1. [Status Display Program](#Status-Display-Program)
 1. [Edit Tag](#Edit-Tag)
-1. [What it will look like](#What-it-will-look-like)
 1. [Note](#Note)
+1. [What it will look like](#What-it-will-look-like)
 
 ## Installation
 Follow below steps:
