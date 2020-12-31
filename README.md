@@ -1,12 +1,15 @@
 # CMUS setup for your Ubuntu or Ubuntu based distro #
 A complete cmus setup with lyrics, cover arts and tag edit setup. It also downloads the lyrics to
-`/home/USERNAME/lyrics` in `{$ARTIS}_{$TITLE}_lyrics_1.txt` for future use. You can change them
-all to .lrc files if you want. And cover art for cmus which will be in track's folder.
+`/home/USERNAME/lyrics` in `{$ARTIS}_{$TITLE}_lyrics_1.txt` format for future use
+You can change them all to .lrc files if you want. And cover art for cmus which will be
+in track's folder.
+
 1. [Installation](#Installation)
 1. [Status Display Program](#Status-Display-Program)
 1. [Edit Tag](#Edit-Tag)
 1. [What it will look like](#What-it-will-look-like)
 1. [Note](#Note)
+
 ## Installation
 Follow below steps:
 1. Install glyrc `sudo apt install glyrc` or compile from source [Glyr](https://github.com/sahib/glyr).
