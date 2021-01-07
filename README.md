@@ -60,6 +60,8 @@ You may want to take these into consideration.
 2. Coverart-get is slow , it will take 30 secdons to find and download the cover art.
 So wait 30 sec and then play the song once more and you should be able to see the art cover.
 Don't worry it is working, give it some time.
+3. Lyrics will not be shown until a song is played.(An infinite loop bug for non-English songs
+were solved in this way)
 
 ## What it will look like
 ![CmusSample](./image/CmusSample.png "CmusSample")
